@@ -1,6 +1,6 @@
 # Space Travel Website Project 🚀✨
 
-:wave: Welcome to the Space Travel Website project, which is a part of a challenge by Frontend Mentor in collaboration with Scrimba and Kevin Powell.
+Welcome :wave: to the Space Travel Website project, which is a part of a challenge by Frontend Mentor in collaboration with Scrimba and Kevin Powell.
 
 ### Project description 📜
 
