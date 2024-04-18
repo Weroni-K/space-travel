@@ -82,7 +82,6 @@
   }
 }
 
-/* colors */
 .bg-dark { background-color: hsl( var(--color-dark) );}
 .bg-light { background-color: hsl( var(--color-light) );}
 .bg-white { background-color: hsl( var(--color-white) );}
@@ -91,7 +90,6 @@
 .text-light { color: hsl( var(--color-light) );}
 .text-white { color: hsl( var(--color-white) );}
 
-/* typography */
 .ff-serif { font-family: var(--ff-serif); }
 .ff-sans-cond { font-family: var(--ff-sans-cond); }
 .ff-sans-normal { font-family: var(--ff-sans-normal); }
@@ -118,7 +116,6 @@
     line-height: 1.1;
 }
 
-/* Reset start              */
 *,
 *::before,
 *::after {
@@ -136,16 +133,6 @@ figure,
 img,
 picture {
     margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    font-weight: 400;
 }
 
 body {
@@ -179,18 +166,6 @@ input, button,
 textarea, select {
   font: inherit;
 }
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-/* Reset end               */
 
 .flex {
   display: flex;
@@ -306,7 +281,6 @@ textarea, select {
   grid-area: title;
 }
 
-/* technology */
 .circle-number-list {
   flex-direction: row;
 }
@@ -498,7 +472,6 @@ textarea, select {
   }
 }
 
-/* screen reading only */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -666,7 +639,6 @@ textarea, select {
   }
 }
 
-/* primary-header */
 .logo {
   margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
 }
