@@ -23,10 +23,10 @@
 </template>
 
 <script setup>
-import Home from './components/Home.vue';
-import Crew from './components/Crew.vue';
-import Technology from './components/Technology.vue';
-import Destination from './components/Destination.vue';
+import Home from './components/HomeSection.vue';
+import Crew from './components/CrewSection.vue';
+import Technology from './components/TechnologySection.vue';
+import Destination from './components/DestinationSection.vue';
 import { ref, computed, reactive, onMounted, onBeforeUnmount } from 'vue'
 
 const routes = {
