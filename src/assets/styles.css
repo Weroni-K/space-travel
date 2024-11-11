@@ -525,7 +525,6 @@ textarea, select {
       flex-direction: column;
       transition: transform 500ms ease-in-out;
   }
-
   .mobile-nav-toggle {
       display: block;
       position: absolute;
@@ -537,6 +536,10 @@ textarea, select {
       height: 1.5rem;
       border: 0;
       cursor: pointer;
+  }
+  .large-button {
+  padding: 0;
+  width: 12rem;
   }
   .home {
     background-image: url(../assets/home/background-home-tablet.jpg);
